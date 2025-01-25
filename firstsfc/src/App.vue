@@ -5,9 +5,6 @@
   <food-item/>
   <food-item/>
   <food-item/>
-  <food-item/>
-  <food-item/>
-  <food-item/>
-</template>
+  </template>
 
 <style></style>
