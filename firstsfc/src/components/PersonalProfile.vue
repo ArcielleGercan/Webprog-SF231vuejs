@@ -1,0 +1,288 @@
+<template>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/mystyle.css">
+  <title>Home Page</title>
+</head>
+<body>
+  <header class="header">
+    <a href="#home" class="logo"><span>Arcielle Marie</span></a>
+    <i class = 'bx bx-menu'[id=menu-icon]></i>
+    
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#Education">Education</a>
+        <a href="#Course">Course</a>
+        <a href="#Experience">Experience</a>
+        <a href="#Goals">Goals in Life</a>
+        <a href="#Hobbies">Hobbies and Interest</a>
+        <a href="#Picture">Picture Gallery</a>
+    </nav>
+  </header>
+
+<section class="home">
+  <div class="home-img">
+      <img src="pictures/Media (3).jfif" alt="Homepage Picture">
+  </div>
+  <div class="home-content">
+      <h1>Hi, I'm <span>Arcielle!</span></h1>
+      <h3 class="text-animation">I'm a <span></span></h3>
+      <p>My name is Arcielle Marie Gercan, you can call me Arcielle or Cielle! <br> I’m from Bulacan, and I have a fun, easy-going, and cheerful personality.
+        I enjoy trying new things and finding exciting experiences, whether it’s learning something new or meeting great people like you.
+        Feel free to explore my page!</p>
+      <div class="social-icons">
+          <a href="https://www.linkedin.com/in/arcielle-marie-gercan/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/ArcielleGercan"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.facebook.com/arciellemcg/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/arxchmvri/"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <a href="#Education" class="btn">Get to know me more!</a>
+      <p class="quote"> ~ Venture outside your comfort zone. The rewards are worth it ~ </p>
+      <p class="quote-author">Rapunzel, Tangled</p>
+  </div>
+</section>
+
+<section class="education" id="Education">
+  <h2 class="heading">Education</h2>
+  
+  <div class = "timeline-items">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+        <div class="timeline-date">2011-2017</div>
+        <div class="timeline-content">
+          <h3>Elementary</h3>
+          <p>Northville 4B Elementary School</p>
+        </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+        <div class="timeline-date">2017-2021</div>
+        <div class="timeline-content">
+          <h3>Junior Highschool</h3>
+          <p>Assemblywoman Felicity G. Bernardino Memorial Trade School</p>
+        </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+        <div class="timeline-date">2021-2023</div>
+        <div class="timeline-content">
+          <h3>Senior Highschool</h3>
+          <p>AMA Computer College Malolos</p>
+        </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+        <div class="timeline-date">2023-2025</div>
+        <div class="timeline-content">
+          <h3>College</h3>
+          <p>Asia Pacific College</p>
+        </div>
+    </div>
+  </div>
+
+
+  <h2 class = "heading">Achievements</h2>
+  <div class = "text">
+    <div class = "text-img">
+      <img src = "pictures/Media (5).jfif" alt = "Honor">
+    </div>
+    <div class = "content">
+    <h1>Last school year, I was recognized as an <span>honor student</span>,</h1>
+      <p>a distinction I’ve consistently achieved since my elementary days. Back then, I actively participated in various competitions, from quiz bees to journalism contests, which helped nurture my skills. Now that I am at Asia Pacific College, I want to expand my knowledge and deepen my understanding of my chosen field of study. To support this goal, I joined the JISSA organization, where I’ve found opportunities to connect with peers, explore new ideas, and further develop my abilities.</p>
+        <p class="quote">~ You control your destiny — you don’t need magic to do it. And there are no magical shortcuts to solving your problems. ~</p>
+        <p class="quote-author">Merida, Brave</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="course" id="Course">
+  <h2 class="heading">Course</h2>
+
+  <div class="courses-container">
+      <div class="course-container">
+          <div class="course-info">
+              <h4>Bachelor of Science in Computer Science with specialization in Cybersecurity and Forensics</h4>
+              <p>I’m currently studying for a Bachelor of Science in Computer Science with a specialization in Cybersecurity and Forensics at Asia Pacific College. This program allows me to dive deep into the exciting world of computer science while focusing on protecting systems, preventing cyberattacks, and investigating digital crimes. I’m thrilled to explore this dynamic field and develop skills that are vital in today’s digital landscape!
+              </p>
+          </div>
+      </div>
+      <div class="course-container">
+          <div class="course-info">
+              <h4>SM Foundation Scholar</h4>
+              <p>I’m also proud to be an SM scholar at Asia Pacific College, which has helped me pursue my academic goals with a little extra support.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="experience" id="Experience">
+  <h2 class="heading">IT Experience</h2>
+  
+  <div class="experience-text">
+      <p>I have gained valuable experience in Java, Python, and SQL, enabling me to develop applications, automate tasks, and manage databases effectively. These skills have been key in academic projects and real-world IT solutions. I’ve also explored Flowgorithm, which helped me understand programming logic through visual flowcharts, and I recently ventured into front-end development through my Web Programming subject. This gave me hands-on experience with HTML, CSS, and JavaScript, allowing me to design and build interactive web pages. I’m excited to continue expanding my IT knowledge.</p>
+  </div>
+
+  <div class="experiences-container">
+      <div class="experience-box">
+          <img src="pictures/Media (3a).jfif" alt="exp1">
+      </div>
+      <div class="experience-box">
+          <img src="pictures/Media (4).jfif" alt="exp3">
+      </div>
+      <div class="experience-box">
+          <img src="pictures/Media (7).jfif" alt="exp4">
+      </div>
+      <div class="experience-box">
+          <img src="pictures/Media (8).jfif" alt="exp5">
+      </div>
+  </div>
+</section>
+
+<section class = "Goals" id = "Goals">
+  <h2 class = "heading">Goals in Life</h2>
+  <div class = "goals-text">
+    <div class = "goals-text-img">
+      <img src = "pictures/Media (6).jfif" alt = "goals">
+    </div>
+    <div class = "goals-content">
+      <h1>My main goal</h1>
+        <p>is to <span>graduate</span> and have a <span>successful career in IT</span>. Beyond my career, I also have a dream of <span>traveling more</span>. I want to explore new places, immerse myself in different cultures, and gain unique experiences</p>
+    </div>
+  </div>
+  <p class="quote">~ The flower that blooms in adversity is the most rare and beautiful of all. ~</p>
+  <p class="quote-author">The Emperor, Mulan</p>
+</section>
+
+<section class="Hobbies" id="Hobbies">
+  <h2 class="heading">Hobbies and Interests</h2>
+  
+  <div class="hobbies-wrapper">
+    <div class="hobbies-item">
+      <img src="pictures/Media (10).jfif" alt="Instrument">
+      <h2>Playing Instrument</h2>
+      <div class="hobbies-content">
+        <p>I love playing the ukulele and keyboard; music brings joy and relaxation to my everyday life.</p>
+      </div>
+    </div>
+
+    <div class="hobbies-item">
+      <img src="https://i.pinimg.com/736x/ed/da/bf/eddabf1355cd6aa1da7eb89c84f24f17.jpg" alt="Singing">
+      <h2>Singing</h2>
+      <div class="hobbies-content">
+        <p>Singing allows me to express myself and connect with my emotions through melodies and lyrics.</p>
+      </div>
+    </div>
+
+    <div class="hobbies-item">
+      <img src="https://i.pinimg.com/736x/55/36/4d/55364dbe7efe7052c33df1e3a7a9614f.jpg" alt="Music">
+      <h2>Listening to Music</h2>
+      <div class="hobbies-content">
+        <p>Music is my constant companion—it energizes me, soothes my soul, and inspires creativity.</p>
+      </div>
+    </div>
+
+    <div class="hobbies-item">
+      <img src="https://i.pinimg.com/736x/88/5d/c6/885dc6bac43aaf18105b43cb681734a3.jpg" alt="Read">
+      <h2>Reading Books</h2>
+      <div class="hobbies-content">
+        <p>Diving into books is like exploring a new world; it fuels my imagination and broadens my perspective.</p>
+      </div>
+    </div>
+
+    <div class="hobbies-item">
+      <img src="pictures/Media (3b).jfif" alt="Games">
+      <h2>Playing Online Games</h2>
+      <div class="hobbies-content">
+        <p>I enjoy playing online games as they challenge my strategy skills and are a fun way to unwind.</p>
+      </div>
+    </div>
+
+    <div class="hobbies-item">
+      <img src="https://i.pinimg.com/736x/d8/48/83/d84883f6e9847ff87943cbe3e8ff6f24.jpg" alt="Food">
+      <h2>Eating Foods</h2>
+      <div class="hobbies-content">
+        <p>I enjoy discovering new flavors and indulging in comfort food.</p>
+      </div>
+    </div>
+
+    <div class="hobbies-item">
+      <img src="https://i.pinimg.com/736x/b8/ac/52/b8ac52f4741264179dc27a64c6434e1e.jpg" alt="Movies">
+      <h2>Watching Movies</h2>
+      <div class="hobbies-content">
+        <p>Movies transport me to new adventures, letting me experience stories from diverse perspectives.</p>
+      </div>
+    </div>
+
+    <div class="hobbies-item">
+      <img src="pictures/Media (9).jfif" alt="Canva">
+      <h2>Designing</h2>
+      <div class="hobbies-content">
+        <p>Designing allows me to channel my creativity and bring ideas to life in a visually appealing way.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class = "picture" id = "Picture">
+  <h2 class="heading">Picture Gallery</h2>
+  <div id="app">
+  </div>
+  <p class="quote">~ The things that make me different are the things that make me ME. ~</p>
+  <p class="quote-author">Piglet, Winnie the Pooh</p>
+</section>
+
+<section class="comment-section">
+  <div id="app2">
+    <h2 class="heading">Sprinkles of Me ✨<br>Share Your Thoughts!</h2>
+    <p>Hi there! I’m so glad you’re exploring my personal website. Please feel free to leave a reaction, share your thoughts, and let me know who you are by adding your name in the section below. Thank you for visiting!</p>
+
+    <div>
+      <div>
+        <button @click="react('like')">👍 Like ({{ post.reactions.like }})</button>
+        <button @click="react('love')">❤️ Love ({{ post.reactions.love }})</button>
+        <button @click="react('haha')">😂 Haha ({{ post.reactions.haha }})</button>
+        <button @click="react('wow')">😲 Wow ({{ post.reactions.wow }})</button>
+        <button @click="react('sad')">😢 Sad ({{ post.reactions.sad }})</button>
+        <button @click="react('angry')">😡 Angry ({{ post.reactions.angry }})</button>
+      </div>
+      <div>
+        <label for="name">Your Name:</label>
+        <input type="text" v-model="name" id="name" placeholder="Enter your name" />
+      </div>
+      <div>
+        <label for="comment">Your Comment:</label>
+        <textarea v-model="newComment" id="comment" placeholder="Leave a comment..."></textarea>
+      </div>
+      <button @click="addComment">Submit</button>
+    </div>
+  
+    <div v-if="comments.length > 0">
+      <h3>Comments:</h3>
+      <ul>
+        <li v-for="(comment, index) in comments" :key="index">
+          <strong>{{ comment.name }}</strong>: {{ comment.text }} ({{ comment.timestamp }})
+        </li>
+      </ul>
+    </div>
+  </div>  
+</section>
+
+<footer>
+  <p>&copy; 2025 Personal Website. All rights reserved.</p>
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/arcielle-marie-gercan/"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/ArcielleGercan"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.facebook.com/arciellemcg/"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.instagram.com/arxchmvri/"><i class="fa-brands fa-instagram"></i></a>
+</div>
+</footer>
+
+</template>
+<script></script>
