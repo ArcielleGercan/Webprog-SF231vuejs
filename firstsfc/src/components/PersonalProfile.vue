@@ -20,7 +20,6 @@
       </div>
       <p>Bachelor of Science in Computer Science with a specialization in Cybersecurity and Forensics</p>
   
-      <!-- IT Experience Section -->
       <div style="background-color:black;color:white;padding: 10px;"> 
         <p>IT Experience</p>
       </div>
